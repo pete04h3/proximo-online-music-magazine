@@ -48,14 +48,14 @@ article{
 /*images*/
 
 .midsection-image {
-  background-image: url(/img/rapper.jpg);
+  background-image: url("../img/rapper.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .splash-image {
-  background-image: url(/img/guitar.png);
+  background-image: url("../img/guitar.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
