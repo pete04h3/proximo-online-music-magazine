@@ -1,0 +1,42 @@
+/* Global styles */
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+a:hover {
+  cursor: pointer;
+  color: #4a718a;
+}
+
+/* Breadcrumb styles */
+.breadcrumb-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.breadcrumb-items .breadcrumb-item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.breadcrumb-items .breadcrumb-item:not(:last-of-type)::after {
+  content: '/';
+  margin: 0 6px;
+  color: #c1d3de;
+}
+
+.breadcrumb-items .breadcrumb-item.active {
+  color: #FC8381;
+  pointer-events: none;
+}
+/*# sourceMappingURL=breadcrumbs.css.map */

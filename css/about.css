@@ -1,0 +1,82 @@
+/* SPLASH SECTION START  */
+
+#splashsection {
+    width: 100%;
+    height: 80vh;
+    background-image: url(/img/about.png);
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+.splashwrapper {
+    position: relative;
+    top: 5rem;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1305px;
+    margin: 0 auto;
+    
+  }
+  
+  .splashwrapper .image {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .splashwrapper:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    background: rgba(62,3,49, 0.8);
+  }
+  .splashwrapper .text {
+
+    font-size: 1em;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.5em rgb(0 0 0 / 50%);
+    margin: 0;
+    position: absolute;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    display: grid;
+    grid-gap: 2rem;
+  }
+   /* SPLASH SECTION END  */
+
+   article p,cite {
+    display: block;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+   }
+
+   @media (min-width: 620px){
+.splashwrapper h2 {
+    font-size: 4rem;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.splashwrapper .btn {
+   
+    border-radius: 50px;
+    padding: 1rem;
+    width: 20%;
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+}

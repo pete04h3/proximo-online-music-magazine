@@ -1,0 +1,59 @@
+
+
+
+.bannerwrapper {
+    position: relative;
+    width: 100%;
+    height: 78vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1305px;
+    margin: 0 auto;
+}
+
+#bannersection {
+    width: 100%;
+    height: 70vh;
+    background-image: url(/img/photo2.jpg);
+    background-position: 50% 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Gotham", "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.bannerwrapper:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+.text input {
+    padding: 0.7rem;
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 616px){
+.text input {
+    padding: 0.7rem;
+    width: 60%;
+    margin: 0;
+}
+}
+
+@media (min-width: 1024px){
+.text input {
+    padding: 0.7rem;
+    width: 34%;
+    margin: 0;
+}
+}

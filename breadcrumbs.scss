@@ -1,0 +1,33 @@
+/* Global styles */
+
+
+a {
+  text-decoration: none;
+  color: currentColor;
+  &:hover {
+    cursor: pointer;
+    color: #4a718a;
+  }
+}
+
+/* Breadcrumb styles */
+.breadcrumb-items {
+  display: flex;
+  width: 100%;
+  flex-flow: row;
+  flex-wrap: wrap;
+  & .breadcrumb-item {
+    display: inline-flex;
+    &:not(:last-of-type) {
+      &::after {
+        content: '/';
+        margin: 0 6px;
+        color: #c1d3de;
+      }
+    }
+    &.active {
+      color: #FC8381;
+      pointer-events: none;
+    }
+  }
+}
